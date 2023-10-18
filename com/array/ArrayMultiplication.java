@@ -48,11 +48,22 @@ public class ArrayMultiplication {
 		 	
 		 	for (i=0; i<lenr; i++) {
 			 	for(j=0; j<lenc; j++) {
-					
-			c[i][j] = a[i][j]  *  b[i][j];
-					
-				}
-			}
+			 		
+			 		c[i][j]=0;
+			 		for(int k=0; k<lenr; k++) {
+			 			
+			 			c[i][j] += a[i][k]*b[k][j];
+
+			 		}
+			//End Of K Loop
+			 		
+	 		//End Of j Loop
+
+			 	}
+			//End Of i Loop
+		 	}
+		 	
+		 	
 		 	
 		 	System.out.println(" ");
 		 	System.out.println(" ");
@@ -93,6 +104,9 @@ public class ArrayMultiplication {
 				}
 				System.out.println("");
 			}
+		 
+		 
+		 
 
 	}
 

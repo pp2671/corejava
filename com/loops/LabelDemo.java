@@ -18,7 +18,7 @@ public class LabelDemo {
 					continue;
 				}
 				
-				System.out.println(i);
+				System.out.print(i);
 	 }
 
    }
