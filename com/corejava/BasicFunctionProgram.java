@@ -2,7 +2,7 @@ package corejava;
 
 public class BasicFunctionProgram {
 
-	static int addition()
+	static int addition() // addition
 	{
 		int a, b, res;
 		a = 20;
