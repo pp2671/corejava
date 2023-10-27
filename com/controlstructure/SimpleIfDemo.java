@@ -1,26 +1,23 @@
 package com.controlstructure;
 
+import java.util.Scanner;
+
 public class SimpleIfDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int a=100;
-		
-		if(a>=100) {
-			
-			System.out.println("The Given Number is Greater Than 50");
-		}
-		
-		char c='b';
-		char b='b';
-		
-		if (a == b) 
+/*		int a =(100);
+		if (a>100);
 		{
-			System.out.println("True");
+			System.out.println("a is greater");
+		}*/
+		char a = 'x';
+		
+		if (a == 'x');
+		{
+			System.out.println("This is equal to x");
 		}
-		else {
-			System.out.println("False");
-		}
+		
+
 	}
 
 }

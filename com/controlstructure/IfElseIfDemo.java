@@ -3,26 +3,18 @@ package com.controlstructure;
 public class IfElseIfDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//int a = -10;
+		//int a = 10;
+		int a = 0;
 		
-		int a=150;
-		
-		if(a>150) {
-			
-			System.out.println("True");
-			
+		if(a<0){
+			System.out.println("Number is negative");
 		}
-		
+		else if(a>0) {
+			System.out.println("The number is positive");
+		}
 		else {
-			
-			System.out.println("False");
-			
-		}
-		
-		if(a<200) {
-			
-			System.out.println("True");
-			
+			System.out.println("The number is equal to zero");
 		}
 
 	}
