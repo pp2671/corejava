@@ -1,6 +1,7 @@
 package com.polymorphism;
 
 class Demo{
+	// Creating a Method To Print Base Class.
 	void syso() {
 		
 		System.out.println("This is Base Class");
